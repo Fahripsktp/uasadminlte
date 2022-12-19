@@ -1,0 +1,92 @@
+/* tugas pertama fahri */
+
+.color {
+    background-color: black;
+    }
+    .container1 {
+        width: 1000px;
+        margin: 30px auto;
+        padding: 5px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-evenly;
+       }
+       .container1 div {
+        flex: 1;
+        float: left;
+       }
+       .container1 div.satu{
+        flex: 2;
+        padding-top: 15%;
+        text-align: center;
+       }
+       h1{
+        color: rgb(34, 0, 255);
+       }
+       .satu b{
+        color: #005e6e;
+       }
+       .medsos{
+        text-align: center;
+        color: rgb(34, 0, 255);
+       }
+       .name b{
+        color: #005e6e;
+       }
+       .kotak{
+        width: 1000px;
+        margin: 30px auto;
+        padding: 5px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        color: #808080;
+       }
+       .kotak div{
+        width: 300px;
+        height: 400px;
+        text-align: center;
+        background-color: #808080;
+       }
+       .kotak1{
+        width: 1000px;
+        margin: 30px auto;
+        padding: 5px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+        color: rgb(34, 0, 255);
+       }
+       .kotak1 div{
+        text-align: center;
+       }
+
+    /* dasboard */
+
+       
+       /* login */
+    
+    .form-signin .form-floating:focus-within {
+        z-index: 2;
+    }
+    
+    .form-signin input[type="email"] {
+        margin-bottom:  -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    
+    .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    
+    }
+    
+    .form-registration input {
+    
+        border-radius: 0;
+        margin-bottom:  -1px;
+    }
+       
+
